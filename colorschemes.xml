@@ -1,0 +1,51 @@
+<theme>
+    <colorScheme name="monochrome">
+        <variables>
+            <textlistPrimaryColor>FFFFFF</textlistPrimaryColor>
+            <textlistSelectorColor>E3E3E3</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="red">
+        <variables>
+            <textlistPrimaryColor>FF7A7C</textlistPrimaryColor>
+            <textlistSelectorColor>FF5759</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="green">
+        <variables>
+            <textlistPrimaryColor>AFDA3E</textlistPrimaryColor>
+            <textlistSelectorColor>99C525</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="blue">
+        <variables>
+            <textlistPrimaryColor>3ACAFF</textlistPrimaryColor>
+            <textlistSelectorColor>61D4FF</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="gold">
+        <variables>
+            <textlistPrimaryColor>F2DB97</textlistPrimaryColor>
+            <textlistSelectorColor>ECCB6A</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="pink">
+        <variables>
+            <textlistPrimaryColor>FFC5DA</textlistPrimaryColor>
+            <textlistSelectorColor>FF87B7</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+    <colorScheme name="purple">
+        <variables>
+            <textlistPrimaryColor>FF8AFF</textlistPrimaryColor>
+            <textlistSelectorColor>FF42FF</textlistSelectorColor>
+            <textlistSelectedColor>000000</textlistSelectedColor>
+        </variables>
+    </colorScheme>
+</theme>

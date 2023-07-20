@@ -1,0 +1,63 @@
+<theme>
+    <include>./colorschemes.xml</include>
+    
+    <view name="system,gamelist">
+        <!-- global textlist across all views, simple way to launch your games! -->
+        <textlist name="global-list">
+            <pos>0 0</pos>
+            <size>1 1</size>
+
+            <fontPath>./fonts/glasstty.ttf</fontPath>
+            <fontSize>0.030</fontSize>
+            <primaryColor>${textlistPrimaryColor}</primaryColor>
+            <secondaryColor>${textlistPrimaryColor}</secondaryColor>
+
+            <lineSpacing>1</lineSpacing>
+            <horizontalMargin>0.005</horizontalMargin>
+
+            <selectorHeight>0.03</selectorHeight>
+            <selectorVerticalOffset>0.007</selectorVerticalOffset>
+            <selectorColor>${textlistSelectorColor}</selectorColor>
+            <selectedColor>${textlistSelectedColor}</selectedColor>
+
+            <systemNameSuffix>false</systemNameSuffix>
+
+            <zIndex>99</zIndex>
+        </textlist>
+    </view>
+
+    <variant name="gamelist-images">
+        <view name="gamelist">
+            <image name="game-img">
+                <pos>0 0</pos>
+                <cropSize>1 1</cropSize>
+                <imageType>screenshot, titlescreen, cover</imageType>
+
+                <brightness>-1.5</brightness>
+                <saturation>0.7</saturation>
+
+                <scrollFadeIn>true</scrollFadeIn>
+                
+                <zIndex>60</zIndex>
+            </image>
+        </view>
+    </variant>
+    <variant name="gamelist-videos">
+        <view name="gamelist">
+            <video name="game-video">
+                <pos>0 0</pos>
+                <cropSize>1 1</cropSize>
+
+                <imageType>screenshot, titlescreen, cover</imageType>
+                <brightness>-1.5</brightness>
+                <saturation>0.7</saturation>
+
+                <audio>false</audio>
+                <delay>0</delay>
+                <scrollFadeIn>true</scrollFadeIn>
+
+                <zIndex>60</zIndex>
+            </video>
+        </view>
+    </variant>
+</theme>
