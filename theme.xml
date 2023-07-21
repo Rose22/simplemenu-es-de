@@ -24,6 +24,12 @@
 
             <zIndex>99</zIndex>
         </textlist>
+
+        <!-- hide the help system -->
+        <helpsystem name="nohelp">
+            <textColor>00000000</textColor>
+            <iconColor>00000000</iconColor>
+        </helpsystem>
     </view>
 
     <variant name="gamelist-images">
