@@ -84,6 +84,7 @@
             <image name="system-bg">
                 <path>${backgroundImagePath}</path>
                 <cropSize>1 1</cropSize>
+                <brightness>-1.5</brightness>
                 <zIndex>59</zIndex>
             </image>
         </view>
@@ -133,12 +134,12 @@
         </view>
     </variant>
     <variant name="images-defaultbg,images-custombg,nomedia-defaultbg,nomedia-custombg">
-        <!-- global background image -->
+        <!-- gamelist background image -->
         <view name="gamelist">
             <image name="gamelist-bg">
                 <path>${backgroundImagePath}</path>
                 <cropSize>1 1</cropSize>
-                <brightness>-0.4</brightness>
+                <brightness>-2</brightness>
                 <zIndex>59</zIndex>
             </image>
         </view>
