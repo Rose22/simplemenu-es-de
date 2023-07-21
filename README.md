@@ -5,6 +5,8 @@ A theme tailor-made for quickly browsing through your games without any fuss, an
 
 Great for handhelds and other devices with small greens, but it also works well on big things like computer monitors and big handhelds like the steam deck!
 
+Works across all aspect ratios. Super small filesize, so it's a very fast download. 
+
 Some examples of how you can make it look:
 
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/0ac35f8d-7961-430c-a5a9-0d92cc21612f">
