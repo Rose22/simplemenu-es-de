@@ -78,14 +78,21 @@
             <zIndex>99</zIndex>
         </text>
     </view>
-    <variant name="images-defaultbg,images-custombg,videos-defaultbg,videos-custombg,nomedia-defaultbg">
+    <variant name="images-defaultbg,images-custombg,videos-defaultbg,videos-custombg,nomedia-defaultbg,nomedia-custombg">
         <view name="system">
             <!-- background image for the system view -->
             <image name="system-bg">
                 <path>${backgroundImagePath}</path>
                 <cropSize>1 1</cropSize>
-                <color>${textlistSelectorColor}</color>
                 <zIndex>59</zIndex>
+            </image>
+        </view>
+    </variant>
+    <variant name="images-defaultbg,videos-defaultbg,nomedia-defaultbg">
+        <!-- only tint the background when it's not a custom one -->
+        <view name="system">
+            <image name="system-bg">
+                <color>${textlistSelectorColor}</color>
             </image>
         </view>
     </variant>
@@ -131,9 +138,16 @@
             <image name="gamelist-bg">
                 <path>${backgroundImagePath}</path>
                 <cropSize>1 1</cropSize>
-                <color>${textlistSelectorColor}</color>
                 <brightness>-0.4</brightness>
                 <zIndex>59</zIndex>
+            </image>
+        </view>
+    </variant>
+    <variant name="images-defaultbg,nomedia-defaultbg">
+        <!-- only tint the background when it's not a custom one -->
+        <view name="gamelist">
+            <image name="gamelist-bg">
+                <color>${textlistSelectorColor}</color>
             </image>
         </view>
     </variant>
