@@ -7,6 +7,8 @@ Great for handhelds and other devices with small screens, but it also works well
 
 Works across all aspect ratios. Super small filesize, so it's a very fast download. 
 
+Supports custom backgrounds, which is nicely combinable with color schemes to make it your own!
+
 Some examples of how you can make it look:
 
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/0ac35f8d-7961-430c-a5a9-0d92cc21612f">
