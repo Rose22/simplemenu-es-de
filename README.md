@@ -3,7 +3,7 @@ ESDE 2.0 version of my [MiniElec](https://github.com/Rose22/es-theme-minielec) t
 
 A theme tailor-made for quickly browsing through your games without any fuss, and launching them quickly. Inspired by MiniUI for miyoo mini.
 
-Great for handhelds and other devices with small greens, but it also works well on big things like computer monitors and big handhelds like the steam deck!
+Great for handhelds and other devices with small screens, but it also works well on big things like computer monitors and big handhelds like the steam deck!
 
 Works across all aspect ratios. Super small filesize, so it's a very fast download. 
 
