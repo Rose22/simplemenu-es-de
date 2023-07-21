@@ -18,7 +18,7 @@ Some examples of how you can make it look:
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/036a167f-49e6-4048-827e-fe04c6372e47">
 
 Steam Deck aspect ratio (16:10):
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/d4bbe9d1-f99c-42b7-b688-e115090d57e5">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/be63ae62-e0cf-4c54-880c-0f86bb18d76f">
 
 4:3 aspect ratio:
 
