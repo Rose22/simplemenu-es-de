@@ -5,8 +5,6 @@ A theme tailor-made for quickly browsing through your games without any fuss, an
 
 It's very barebones right now compared to MiniElec, because the theme engine in ESDE is so different and doesn't support a lot of the things that MiniElec used.
 
-You can have a custom background by replacing background.png inside the theme folder to whatever you like!
-
 Some examples of how you can make it look:
 
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/0ac35f8d-7961-430c-a5a9-0d92cc21612f">
