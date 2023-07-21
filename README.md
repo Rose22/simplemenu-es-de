@@ -31,7 +31,21 @@ Steam Deck aspect ratio (16:10):
 <img width="592" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/b5dc1acd-ce6d-461a-962e-0d675c5dc5c6">
 
 anime aspect ratio:
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/1942faf9-80f1-45e9-b597-4f7a4bde1d63">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/d4a40718-7dd4-49af-aafb-3bdfb8a8677e">
+
+cotton candy aspect ratio:
+<img width="852" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/f0e4a23b-0fa1-4746-b51d-da43a35ba2ac">
+
+ratio ratio:
+
+<img width="752" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/2b5b417f-34cb-4daa-98b8-2bbf9bb152e8">
 
 oh no stop what are you doing it can't handle this yet!!
+
 <img width="712" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/5333e119-7b05-4745-91a2-02e70f1c5ade">
+
+oh no oh no you made it worse!! stop!
+
+<img width="712" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/3b6fccae-74a0-46c5-99b6-f01f80fd6d55">
+
+
