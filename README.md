@@ -17,5 +17,19 @@ Some examples of how you can make it look:
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/e5eb6491-a737-438a-9a4a-a47b9bda040b">
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/036a167f-49e6-4048-827e-fe04c6372e47">
 
+Steam Deck aspect ratio (16:10):
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/d4bbe9d1-f99c-42b7-b688-e115090d57e5">
 
+4:3 aspect ratio:
 
+<img width="752" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/a2abfeb9-0ac5-40eb-8660-0df2bdb962f2">
+
+3:2 aspect ratio:
+
+<img width="592" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/b5dc1acd-ce6d-461a-962e-0d675c5dc5c6">
+
+anime aspect ratio:
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/1942faf9-80f1-45e9-b597-4f7a4bde1d63">
+
+oh no stop what are you doing it can't handle this yet!!
+<img width="712" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/5333e119-7b05-4745-91a2-02e70f1c5ade">
