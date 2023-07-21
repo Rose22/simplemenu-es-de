@@ -1,9 +1,9 @@
 # simplemenu-es-de
 ESDE 2.0 version of my [MiniElec](https://github.com/Rose22/es-theme-minielec) theme
 
-A theme tailor-made for quickly browsing through your games without any fuss, and launching them quickly. 
+A theme tailor-made for quickly browsing through your games without any fuss, and launching them quickly. Inspired by MiniUI for miyoo mini.
 
-It's very barebones right now compared to MiniElec, because the theme engine is so different and doesn't support a lot of the things that MiniElec used.
+It's very barebones right now compared to MiniElec, because the theme engine in ESDE is so different and doesn't support a lot of the things that MiniElec used.
 
 But for now this'll do!
 
