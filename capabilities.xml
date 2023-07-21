@@ -34,12 +34,17 @@
         <selectable>true</selectable>
     </variant>
     <variant name="gamelist-none">
-        <label>no background in game list</label>
+        <label>no media in game list</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="nobg">
+        <label>no backgrounds at all</label>
         <selectable>true</selectable>
     </variant>
 
     <!-- TRANSITION PROFILES -->
     <suppressTransitionProfiles>
+        <entry>builtin-instant</entry>
         <entry>builtin-slide</entry>
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>

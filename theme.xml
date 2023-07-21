@@ -4,8 +4,8 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0</pos>
-            <size>1 1</size>
+            <pos>0 0.025</pos>
+            <size>1 0.985</size>
 
             <fontPath>./fonts/ArcadePix.ttf</fontPath>
             <fontSize>0.030</fontSize>
@@ -26,21 +26,81 @@
             <zIndex>99</zIndex>
         </textlist>
 
-        <!-- hide the help system -->
+        <!-- help system in header -->
         <helpsystem name="help">
-            <textColor>00000000</textColor>
-            <iconColor>00000000</iconColor>
+            <fontSize>0.020</fontSize>
+            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <origin>0.99 0.0065</origin>
+            <pos>0.99 0.0065</pos>
+            <textColor>${textlistPrimaryColor}</textColor>
+            <iconColor>${textlistPrimaryColor}</iconColor>
         </helpsystem>
+        <!-- background color for the header -->
+        <text name="header-bg">
+            <pos>0 0</pos>
+            <size>1 0.03</size>
+            <fontSize>0.020</fontSize>
+            <backgroundColor>${textlistSelectedColor}</backgroundColor>
+            <color>FFFFFF</color>
+            <zIndex>98</zIndex>
+        </text>
+    </view>
+
+    <view name="system">
+        <!-- system-only header text -->
+        <text name="system-name">
+            <origin>0.005 0</origin>
+            <pos>0.005 0</pos>
+
+            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <color>${textlistPrimaryColor}</color>
+            <fontSize>0.020</fontSize>
+
+            <text>choose your system</text>
+            <horizontalAlignment>left</horizontalAlignment>
+            <letterCase>uppercase</letterCase>
+
+            <zIndex>99</zIndex>
+        </text>
+    </view>
+    <variant name="gamelist-images,gamelist-videos,gamelist-none">
+        <view name="system">
+            <!-- background image for the system view -->
+            <image name="system-bg">
+                <path>./background.png</path>
+                <cropSize>1 1</cropSize>
+                <color>${textlistSelectorColor}</color>
+                <zIndex>59</zIndex>
+            </image>
+        </view>
+    </variant>
+    <view name="gamelist">
+        <!-- gamelist-only header text -->
+        <text name="system-name">
+            <origin>0.005 0</origin>
+            <pos>0.005 0.0105</pos>
+            <size>0.17 0.01</size>
+
+            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <color>${textlistPrimaryColor}</color>
+            <fontSize>0.020</fontSize>
+
+            <text>${system.name}</text>
+            <horizontalAlignment>left</horizontalAlignment>
+            <letterCase>uppercase</letterCase>
+
+            <zIndex>99</zIndex>
+        </text>
     </view>
 
     <variant name="gamelist-images">
         <view name="gamelist">
             <image name="game-img">
-                <origin>0.5 0.5</origin>
-                <pos>0.5 0.5</pos>
-                <maxSize>1 1</maxSize>
-                <imageType>screenshot, titlescreen, cover</imageType>
+                <origin>0.5 0.85</origin>
+                <pos>0.5 0.85</pos>
+                <cropSize>1 1</cropSize>
 
+                <imageType>screenshot, titlescreen, cover</imageType>
                 <brightness>-1.5</brightness>
 
                 <scrollFadeIn>true</scrollFadeIn>
@@ -49,14 +109,27 @@
             </image>
         </view>
     </variant>
+    <variant name="gamelist-images,gamelist-none">
+        <!-- background for the images and "no bg in gamelist" variants -->
+        <view name="gamelist">
+            <image name="gamelist-bg">
+                <path>./background.png</path>
+                <cropSize>1 1</cropSize>
+                <color>${textlistSelectorColor}</color>
+                <brightness>-0.4</brightness>
+                <zIndex>59</zIndex>
+            </image>
+        </view>
+    </variant>
     <variant name="gamelist-videos">
         <view name="gamelist">
             <video name="game-video">
-                <origin>0.5 0.5</origin>
-                <pos>0.5 0.5</pos>
+                <origin>0.5 0.85</origin>
+                <pos>0.5 0.85</pos>
                 <maxSize>1 1</maxSize>
 
                 <imageType>screenshot, titlescreen, cover</imageType>
+                <defaultImage>./background.png</defaultImage>
                 <brightness>-1.5</brightness>
 
                 <audio>false</audio>
