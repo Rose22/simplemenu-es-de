@@ -25,20 +25,32 @@
     </colorScheme>
 
     <!-- VARIANTS -->
-    <variant name="gamelist-images">
-        <label>images behind game list</label>
+    <variant name="images-defaultbg">
+        <label>Default background | Images behind game list</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="gamelist-videos">
-        <label>videos behind game list</label>
+    <variant name="videos-defaultbg">
+        <label>Default background | Videos behind game list</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="gamelist-none">
-        <label>no media in game list</label>
+    <variant name="nomedia-defaultbg">
+        <label>Default background | No media in game list</label>
         <selectable>true</selectable>
     </variant>
-    <variant name="nobg">
-        <label>no backgrounds at all</label>
+    <variant name="images-custombg">
+        <label>Custom background | Images behind game list</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="videos-custombg">
+        <label>Custom background | Videos behind game list</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="nomedia-custombg">
+        <label>Custom background | No media in game list</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="nomedia-nobg">
+        <label>No background & No media</label>
         <selectable>true</selectable>
     </variant>
 

@@ -1,5 +1,20 @@
 <theme>
     <include>./colorschemes.xml</include>
+
+    <variables>
+        <mainFontPath>./fonts/ArcadePix.ttf</mainFontPath>
+        <mainMenuText>choose your system</mainMenuText>
+    </variables>
+    <variant name="images-defaultbg,videos-defaultbg,nomedia-defaultbg">
+        <variables>
+            <backgroundImagePath>./background.png</backgroundImagePath>
+        </variables>
+    </variant>
+    <variant name="images-custombg,videos-custombg,nomedia-custombg">
+        <variables>
+            <backgroundImagePath>./custombg.png</backgroundImagePath>
+        </variables>
+    </variant>
     
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
@@ -7,7 +22,7 @@
             <pos>0 0.025</pos>
             <size>1 0.985</size>
 
-            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <fontPath>${mainFontPath}</fontPath>
             <fontSize>0.030</fontSize>
             <primaryColor>${textlistPrimaryColor}</primaryColor>
             <secondaryColor>${textlistPrimaryColor}</secondaryColor>
@@ -29,7 +44,7 @@
         <!-- help system in header -->
         <helpsystem name="help">
             <fontSize>0.020</fontSize>
-            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <fontPath>${mainFontPath}</fontPath>
             <origin>0.99 0.0065</origin>
             <pos>0.99 0.0065</pos>
             <textColor>${textlistPrimaryColor}</textColor>
@@ -52,22 +67,22 @@
             <origin>0.005 0</origin>
             <pos>0.005 0</pos>
 
-            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <fontPath>${mainFontPath}</fontPath>
             <color>${textlistPrimaryColor}</color>
             <fontSize>0.020</fontSize>
 
-            <text>choose your system</text>
+            <text>${mainMenuText}</text>
             <horizontalAlignment>left</horizontalAlignment>
             <letterCase>uppercase</letterCase>
 
             <zIndex>99</zIndex>
         </text>
     </view>
-    <variant name="gamelist-images,gamelist-videos,gamelist-none">
+    <variant name="images-defaultbg,images-custombg,videos-defaultbg,videos-custombg,nomedia-defaultbg">
         <view name="system">
             <!-- background image for the system view -->
             <image name="system-bg">
-                <path>./background.png</path>
+                <path>${backgroundImagePath}</path>
                 <cropSize>1 1</cropSize>
                 <color>${textlistSelectorColor}</color>
                 <zIndex>59</zIndex>
@@ -81,7 +96,7 @@
             <pos>0.005 0.0105</pos>
             <size>0.17 0.01</size>
 
-            <fontPath>./fonts/ArcadePix.ttf</fontPath>
+            <fontPath>${mainFontPath}</fontPath>
             <color>${textlistPrimaryColor}</color>
             <fontSize>0.020</fontSize>
 
@@ -93,8 +108,9 @@
         </text>
     </view>
 
-    <variant name="gamelist-images">
+    <variant name="images-defaultbg,images-custombg">
         <view name="gamelist">
+            <!-- game image behind gamelist -->
             <image name="game-img">
                 <origin>0.5 0.85</origin>
                 <pos>0.5 0.85</pos>
@@ -109,11 +125,11 @@
             </image>
         </view>
     </variant>
-    <variant name="gamelist-images,gamelist-none">
-        <!-- background for the images and "no bg in gamelist" variants -->
+    <variant name="images-defaultbg,images-custombg,nomedia-defaultbg,nomedia-custombg">
+        <!-- global background image -->
         <view name="gamelist">
             <image name="gamelist-bg">
-                <path>./background.png</path>
+                <path>${backgroundImagePath}</path>
                 <cropSize>1 1</cropSize>
                 <color>${textlistSelectorColor}</color>
                 <brightness>-0.4</brightness>
@@ -121,15 +137,16 @@
             </image>
         </view>
     </variant>
-    <variant name="gamelist-videos">
+    <variant name="videos-defaultbg,videos-custombg">
         <view name="gamelist">
+            <!-- game video behind gamelist -->
             <video name="game-video">
                 <origin>0.5 0.85</origin>
                 <pos>0.5 0.85</pos>
                 <maxSize>1 1</maxSize>
 
                 <imageType>screenshot, titlescreen, cover</imageType>
-                <defaultImage>./background.png</defaultImage>
+                <defaultImage>${backgroundImagePath}</defaultImage>
                 <brightness>-1.5</brightness>
 
                 <audio>false</audio>
