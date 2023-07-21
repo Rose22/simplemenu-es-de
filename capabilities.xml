@@ -1,7 +1,7 @@
 <themeCapabilities>
     <themeName>SimpleMenu</themeName>
 
-    <!-- DARK COLORSCHEMES -->
+    <!-- COLORSCHEMES -->
     <colorScheme name="monochrome">
         <label>Monochrome</label>
     </colorScheme>
@@ -24,6 +24,7 @@
         <label>Purple</label>
     </colorScheme>
 
+    <!-- VARIANTS -->
     <variant name="gamelist-images">
         <label>images behind game list</label>
         <selectable>true</selectable>
@@ -33,7 +34,13 @@
         <selectable>true</selectable>
     </variant>
     <variant name="gamelist-none">
-        <label>no background</label>
+        <label>no background in game list</label>
         <selectable>true</selectable>
     </variant>
+
+    <!-- TRANSITION PROFILES -->
+    <suppressTransitionProfiles>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
 </themeCapabilities>

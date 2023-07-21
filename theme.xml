@@ -26,7 +26,7 @@
         </textlist>
 
         <!-- hide the help system -->
-        <helpsystem name="nohelp">
+        <helpsystem name="help">
             <textColor>00000000</textColor>
             <iconColor>00000000</iconColor>
         </helpsystem>
