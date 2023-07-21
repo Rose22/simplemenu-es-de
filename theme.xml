@@ -21,6 +21,7 @@
             <selectedColor>${textlistSelectedColor}</selectedColor>
 
             <systemNameSuffix>false</systemNameSuffix>
+            <indicators>ascii</indicators>
 
             <zIndex>99</zIndex>
         </textlist>
@@ -40,7 +41,6 @@
                 <imageType>screenshot, titlescreen, cover</imageType>
 
                 <brightness>-1.5</brightness>
-                <saturation>0.7</saturation>
 
                 <scrollFadeIn>true</scrollFadeIn>
                 
@@ -56,10 +56,9 @@
 
                 <imageType>screenshot, titlescreen, cover</imageType>
                 <brightness>-1.5</brightness>
-                <saturation>0.7</saturation>
 
                 <audio>false</audio>
-                <delay>0</delay>
+                <delay>0.5</delay>
                 <scrollFadeIn>true</scrollFadeIn>
 
                 <zIndex>60</zIndex>
