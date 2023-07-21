@@ -7,8 +7,11 @@ It's very barebones right now compared to MiniElec, because the theme engine in 
 
 But for now this'll do!
 
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/03f8eb42-d7ab-41aa-b208-22703181fd06">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/fe735c0b-28ab-4eb9-a161-83fc66a8153c">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/e47415dc-bd71-4bac-a6d6-fee23c88d6d0">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/c894441f-3c50-4221-93bd-648d7d9833e1">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/3bea60c2-e3bc-44f9-8d17-652de4a86e9e">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/95c70f15-c200-44ca-9996-3bd763d5339d">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/3149549a-a71a-4fec-949f-6d6998ae459c">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/6084bc75-e1f3-4f42-afbf-fc5db005b1cc">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/e5eb6491-a737-438a-9a4a-a47b9bda040b">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/1f16dd13-d1fe-4035-8ada-3c21c5b0e952">
+
 
