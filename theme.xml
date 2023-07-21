@@ -103,7 +103,7 @@
                 <imageType>screenshot, titlescreen, cover</imageType>
                 <brightness>-1.5</brightness>
 
-                <scrollFadeIn>true</scrollFadeIn>
+                <scrollFadeIn>false</scrollFadeIn>
                 
                 <zIndex>60</zIndex>
             </image>
@@ -134,7 +134,7 @@
 
                 <audio>false</audio>
                 <delay>0.5</delay>
-                <scrollFadeIn>true</scrollFadeIn>
+                <scrollFadeIn>false</scrollFadeIn>
                 <scanlines>true</scanlines>
 
                 <zIndex>60</zIndex>
