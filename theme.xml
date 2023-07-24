@@ -102,7 +102,7 @@
         <text name="system-name">
             <origin>0.005 0</origin>
             <pos>0.005 0.0105</pos>
-            <size>0.17 0.01</size>
+           <size>0.17 0.01</size>
 
             <fontPath>${mainFontPath}</fontPath>
             <color>${textlistPrimaryColor}</color>
@@ -171,6 +171,21 @@
 
                 <zIndex>60</zIndex>
             </video>
+        </view>
+    </variant>
+
+    <!-- message to show when no custom background found -->
+    <variant name="images-custombg,videos-custombg,nomedia-custombg">
+        <view name="system,gamelist">
+            <text name="custombg-instructions">
+                <origin>0.5 0.3</origin>
+                <pos>0.7 0.3</pos>
+                <size>0.5 0.4</size>
+                <text>Please place an image file in the root of the theme folder, and name it "custombg.png"</text>
+                <fontSize>0.06</fontSize>
+                <color>FFFFFF</color>
+                <zIndex>58</zIndex>
+            </text>
         </view>
     </variant>
 </theme>
