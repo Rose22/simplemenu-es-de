@@ -32,7 +32,9 @@
 
             <selectorHeight>0.03</selectorHeight>
             <selectorVerticalOffset>0.007</selectorVerticalOffset>
-            <selectorColor>${textlistSelectorColor}</selectorColor>
+            <!-- <selectorColor>00000000</selectorColor> -->
+            <selectorColor>${textlistSelectorColor}AA</selectorColor>
+            <!-- <selectedBackgroundColor>${textlistSelectorColor}</selectedBackgroundColor> -->
             <selectedColor>${textlistSelectedColor}</selectedColor>
 
             <systemNameSuffix>false</systemNameSuffix>
