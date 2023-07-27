@@ -4,7 +4,7 @@
     <variables>
         <mainFontPath>./fonts/mainfont.ttf</mainFontPath>
         <fontSizeLarge>0.040</fontSizeLarge>
-        <fontSizeNormal>0.035</fontSizeNormal>
+        <fontSizeNormal>0.040</fontSizeNormal>
         <fontSizeSmall>0.020</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
@@ -33,11 +33,11 @@
             <selectorColor>${colorLight}CC</selectorColor>
             <selectedColor>${colorDark}</selectedColor>
 
-            <lineSpacing>1.3</lineSpacing>
+            <lineSpacing>1.2</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
             <selectorHeight>0.035</selectorHeight>
-            <selectorVerticalOffset>0.009</selectorVerticalOffset>
+            <selectorVerticalOffset>0.012</selectorVerticalOffset>
             <!-- <selectorColor>00000000</selectorColor> -->
             <!-- <selectedBackgroundColor>${colorBackground}</selectedBackgroundColor> -->
 
