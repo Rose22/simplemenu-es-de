@@ -23,7 +23,7 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0.009</pos>
+            <pos>0 0.010</pos>
             <size>1 0.99</size>
 
             <fontPath>${mainFontPath}</fontPath>
