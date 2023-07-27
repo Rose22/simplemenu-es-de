@@ -3,6 +3,9 @@
 
     <variables>
         <mainFontPath>./fonts/ArcadePix.ttf</mainFontPath>
+        <fontSizeLarge>0.050</fontSizeLarge>
+        <fontSizeNormal>0.040</fontSizeNormal>
+        <fontSizeSmall>0.020</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
     <variant name="images-defaultbg,videos-defaultbg,nomedia-defaultbg">
@@ -23,15 +26,15 @@
             <size>1 0.985</size>
 
             <fontPath>${mainFontPath}</fontPath>
-            <fontSize>0.030</fontSize>
+            <fontSize>${fontSizeNormal}</fontSize>
             <primaryColor>${textlistPrimaryColor}</primaryColor>
             <secondaryColor>${textlistPrimaryColor}</secondaryColor>
 
             <lineSpacing>1</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
-            <selectorHeight>0.03</selectorHeight>
-            <selectorVerticalOffset>0.007</selectorVerticalOffset>
+            <selectorHeight>0.04</selectorHeight>
+            <selectorVerticalOffset>0.010</selectorVerticalOffset>
             <!-- <selectorColor>00000000</selectorColor> -->
             <selectorColor>${textlistSelectorColor}AA</selectorColor>
             <!-- <selectedBackgroundColor>${textlistSelectorColor}</selectedBackgroundColor> -->
@@ -56,7 +59,7 @@
         <text name="header-bg">
             <pos>0 0</pos>
             <size>1 0.03</size>
-            <fontSize>0.020</fontSize>
+            <fontSize>${fontSizeSmall}</fontSize>
             <backgroundColor>${textlistSelectedColor}</backgroundColor>
             <color>FFFFFF</color>
             <zIndex>98</zIndex>
@@ -71,7 +74,7 @@
 
             <fontPath>${mainFontPath}</fontPath>
             <color>${textlistPrimaryColor}</color>
-            <fontSize>0.020</fontSize>
+            <fontSize>${fontSizeSmall}</fontSize>
 
             <text>${mainMenuText}</text>
             <horizontalAlignment>left</horizontalAlignment>
@@ -108,7 +111,7 @@
 
             <fontPath>${mainFontPath}</fontPath>
             <color>${textlistPrimaryColor}</color>
-            <fontSize>0.020</fontSize>
+            <fontSize>${fontSizeSmall}</fontSize>
 
             <text>${system.name}</text>
             <horizontalAlignment>left</horizontalAlignment>
@@ -126,7 +129,7 @@
                 <pos>0.5 0.85</pos>
                 <cropSize>1 1</cropSize>
 
-                <imageType>screenshot, titlescreen, cover</imageType>
+                <imageType>cover, titlescreen, screenshot</imageType>
                 <brightness>-1.5</brightness>
 
                 <scrollFadeIn>false</scrollFadeIn>
@@ -162,7 +165,7 @@
                 <pos>0.5 0.85</pos>
                 <maxSize>1 1</maxSize>
 
-                <imageType>screenshot, titlescreen, cover</imageType>
+                <imageType>cover, titlescreen, screenshot</imageType>
                 <defaultImage>${backgroundImagePath}</defaultImage>
                 <brightness>-1.5</brightness>
 
