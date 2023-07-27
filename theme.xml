@@ -6,7 +6,7 @@
         <mainFontSmallPath>./fonts/mainfont-small.ttf</mainFontSmallPath>
         <fontSizeLarge>0.040</fontSizeLarge>
         <fontSizeNormal>0.040</fontSizeNormal>
-        <fontSizeSmall>0.015</fontSizeSmall>
+        <fontSizeSmall>0.014</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
     <variant name="images-defaultbg,videos-defaultbg,nomedia-defaultbg">
@@ -23,7 +23,7 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0.010</pos>
+            <pos>0 0.008</pos>
             <size>1 0.99</size>
 
             <fontPath>${mainFontPath}</fontPath>
@@ -34,7 +34,7 @@
             <selectorColor>${colorLight}CC</selectorColor>
             <selectedColor>${colorDark}</selectedColor>
 
-            <lineSpacing>1.15</lineSpacing>
+            <lineSpacing>1.1</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
             <selectorHeight>0.035</selectorHeight>
@@ -60,7 +60,7 @@
         <!-- background color for the header -->
         <text name="header-bg">
             <pos>0 0</pos>
-            <size>1 0.025</size>
+            <size>1 0.020</size>
             <fontSize>${fontSizeSmall}</fontSize>
             <backgroundColor>${colorDark}</backgroundColor>
             <color>FFFFFF</color>
