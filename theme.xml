@@ -30,11 +30,11 @@
             <primaryColor>${textlistPrimaryColor}</primaryColor>
             <secondaryColor>${textlistPrimaryColor}</secondaryColor>
 
-            <lineSpacing>1.5</lineSpacing>
+            <lineSpacing>1.3</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
-            <selectorHeight>0.04</selectorHeight>
-            <selectorVerticalOffset>0.010</selectorVerticalOffset>
+            <selectorHeight>0.035</selectorHeight>
+            <selectorVerticalOffset>0.009</selectorVerticalOffset>
             <!-- <selectorColor>00000000</selectorColor> -->
             <selectorColor>${textlistSelectorColor}AA</selectorColor>
             <!-- <selectedBackgroundColor>${textlistSelectorColor}</selectedBackgroundColor> -->
