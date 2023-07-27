@@ -1,51 +1,51 @@
 <theme>
     <colorScheme name="monochrome">
         <variables>
-            <textlistPrimaryColor>FFFFFF</textlistPrimaryColor>
-            <textlistSelectorColor>E3E3E3</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>FFFFFF</colorLight>
+            <colorBackground>E3E3E3</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="red">
         <variables>
-            <textlistPrimaryColor>FF7A7C</textlistPrimaryColor>
-            <textlistSelectorColor>FF5759</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>FF7A7C</colorLight>
+            <colorBackground>FF5759</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="green">
         <variables>
-            <textlistPrimaryColor>AFDA3E</textlistPrimaryColor>
-            <textlistSelectorColor>99C525</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>AFDA3E</colorLight>
+            <colorBackground>99C525</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="blue">
         <variables>
-            <textlistPrimaryColor>3ACAFF</textlistPrimaryColor>
-            <textlistSelectorColor>61D4FF</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>3ACAFF</colorLight>
+            <colorBackground>61D4FF</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="gold">
         <variables>
-            <textlistPrimaryColor>F2DB97</textlistPrimaryColor>
-            <textlistSelectorColor>ECCB6A</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>F2DB97</colorLight>
+            <colorBackground>ECCB6A</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="pink">
         <variables>
-            <textlistPrimaryColor>FFB6C1</textlistPrimaryColor>
-            <textlistSelectorColor>FFC0CB</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>FFB6C1</colorLight>
+            <colorBackground>FFC0CB</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="purple">
         <variables>
-            <textlistPrimaryColor>FF8AFF</textlistPrimaryColor>
-            <textlistSelectorColor>FF42FF</textlistSelectorColor>
-            <textlistSelectedColor>000000</textlistSelectedColor>
+            <colorLight>FF8AFF</colorLight>
+            <colorBackground>FF42FF</colorBackground>
+            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
 </theme>

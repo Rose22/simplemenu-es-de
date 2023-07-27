@@ -27,18 +27,19 @@
 
             <fontPath>${mainFontPath}</fontPath>
             <fontSize>${fontSizeNormal}</fontSize>
-            <primaryColor>${textlistPrimaryColor}</primaryColor>
-            <secondaryColor>${textlistPrimaryColor}</secondaryColor>
+
+            <primaryColor>${colorLight}AA</primaryColor>
+            <secondaryColor>${colorLight}AA</secondaryColor>
+            <selectorColor>${colorDark}CC</selectorColor>
+            <selectedColor>${colorBackground}</selectedColor>
 
             <lineSpacing>1.3</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
             <selectorHeight>0.035</selectorHeight>
             <selectorVerticalOffset>0.009</selectorVerticalOffset>
-            <selectorColor>${textlistSelectorColor}</selectorColor>
-            <selectedColor>${textlistSelectedColor}</selectedColor>
             <!-- <selectorColor>00000000</selectorColor> -->
-            <!-- <selectedBackgroundColor>${textlistSelectorColor}</selectedBackgroundColor> -->
+            <!-- <selectedBackgroundColor>${colorBackground}</selectedBackgroundColor> -->
 
             <systemNameSuffix>false</systemNameSuffix>
             <indicators>ascii</indicators>
@@ -52,29 +53,19 @@
             <fontPath>${mainFontPath}</fontPath>
             <origin>0.99 0.0065</origin>
             <pos>0.99 0.0065</pos>
-            <textColor>${textlistPrimaryColor}</textColor>
-            <iconColor>${textlistPrimaryColor}</iconColor>
+            <textColor>${colorLight}</textColor>
+            <iconColor>${colorLight}</iconColor>
         </helpsystem>
         <!-- background color for the header -->
         <text name="header-bg">
             <pos>0 0</pos>
             <size>1 0.03</size>
             <fontSize>${fontSizeSmall}</fontSize>
-            <backgroundColor>${textlistSelectedColor}</backgroundColor>
+            <backgroundColor>${colorDark}</backgroundColor>
             <color>FFFFFF</color>
             <zIndex>98</zIndex>
         </text>
     </view>
-    <variant name="images-defaultbg, images-custombg, videos-defaultbg, videos-custombg">
-        <view name="gamelist">
-            <!-- transparent text in gamelist -->
-            <textlist name="global-list">
-                <primaryColor>${textlistPrimaryColor}AA</primaryColor>
-                <secondaryColor>${textlistPrimaryColor}CC</secondaryColor>
-                <selectorColor>${textlistSelectorColor}AA</selectorColor>
-            </textlist>
-        </view>
-    </variant>
 
     <view name="system">
         <!-- system-only header text -->
@@ -83,7 +74,7 @@
             <pos>0.005 0</pos>
 
             <fontPath>${mainFontPath}</fontPath>
-            <color>${textlistPrimaryColor}</color>
+            <color>${colorLight}</color>
             <fontSize>${fontSizeSmall}</fontSize>
 
             <text>${mainMenuText}</text>
@@ -108,7 +99,7 @@
         <!-- only tint the background when it's not a custom one -->
         <view name="system">
             <image name="system-bg">
-                <color>${textlistSelectorColor}</color>
+                <color>${colorBackground}</color>
             </image>
         </view>
     </variant>
@@ -120,7 +111,7 @@
             <size>0.17 0.01</size>
 
             <fontPath>${mainFontPath}</fontPath>
-            <color>${textlistPrimaryColor}</color>
+            <color>${colorLight}</color>
             <fontSize>${fontSizeSmall}</fontSize>
 
             <text>${system.name}</text>
@@ -164,7 +155,7 @@
         <!-- only tint the background when it's not a custom one -->
         <view name="gamelist">
             <image name="gamelist-bg">
-                <color>${textlistSelectorColor}</color>
+                <color>${colorBackground}</color>
             </image>
         </view>
     </variant>
