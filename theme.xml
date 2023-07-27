@@ -4,7 +4,7 @@
     <variables>
         <mainFontPath>./fonts/mainfont.ttf</mainFontPath>
         <fontSizeLarge>0.040</fontSizeLarge>
-        <fontSizeNormal>0.035</fontSizeNormal>
+        <fontSizeNormal>0.040</fontSizeNormal>
         <fontSizeSmall>0.020</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
@@ -22,7 +22,7 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0.025</pos>
+            <pos>0 0.020</pos>
             <size>1 0.990</size>
 
             <fontPath>${mainFontPath}</fontPath>
@@ -36,8 +36,8 @@
             <lineSpacing>1.1</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
-            <selectorHeight>0.030</selectorHeight>
-            <selectorVerticalOffset>0.012</selectorVerticalOffset>
+            <selectorHeight>0.035</selectorHeight>
+            <selectorVerticalOffset>0.013</selectorVerticalOffset>
             <!-- <selectorColor>00000000</selectorColor> -->
             <!-- <selectedBackgroundColor>${colorBackground}</selectedBackgroundColor> -->
 
