@@ -29,8 +29,8 @@
     </colorScheme>
     <colorScheme name="gold">
         <variables>
-            <colorLight>F7E9C1</colorLight>
-            <colorDark>070601</colorDark>
+            <colorLight>F0D68D</colorLight>
+            <colorDark>181303</colorDark>
             <colorBackground>ECCB6A</colorBackground>
         </variables>
     </colorScheme>
