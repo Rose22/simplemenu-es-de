@@ -165,7 +165,7 @@
                 <pos>0.5 0.85</pos>
                 <maxSize>1 1</maxSize>
 
-                <imageType>cover, titlescreen, screenshot</imageType>
+                <imageType>screenshot, titlescreen, cover</imageType>
                 <defaultImage>${backgroundImagePath}</defaultImage>
                 <brightness>-1.5</brightness>
 
