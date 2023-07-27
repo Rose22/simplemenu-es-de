@@ -3,10 +3,9 @@
 
     <variables>
         <mainFontPath>./fonts/mainfont.ttf</mainFontPath>
-        <mainFontSmallPath>./fonts/mainfont-small.ttf</mainFontSmallPath>
         <fontSizeLarge>0.040</fontSizeLarge>
         <fontSizeNormal>0.040</fontSizeNormal>
-        <fontSizeSmall>0.014</fontSizeSmall>
+        <fontSizeSmall>0.024</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
     <variant name="images-defaultbg,videos-defaultbg,nomedia-defaultbg">
@@ -23,8 +22,8 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0.010</pos>
-            <size>1 0.99</size>
+            <pos>0 0.025</pos>
+            <size>1 0.985</size>
 
             <fontPath>${mainFontPath}</fontPath>
             <fontSize>${fontSizeNormal}</fontSize>
@@ -50,17 +49,17 @@
 
         <!-- help system in header -->
         <helpsystem name="help">
-            <fontSize>${fontSizeSmall}</fontSize>
-            <fontPath>${mainFontSmallPath}</fontPath>
-            <origin>0.99 0.0065</origin>
-            <pos>0.99 0.002</pos>
+            <fontSize>0.020</fontSize>
+            <fontPath>${mainFontPath}</fontPath>
+            <origin>0.99 0</origin>
+            <pos>0.99 0.010</pos>
             <textColor>${colorLight}</textColor>
             <iconColor>${colorLight}</iconColor>
         </helpsystem>
         <!-- background color for the header -->
         <text name="header-bg">
             <pos>0 0</pos>
-            <size>1 0.020</size>
+            <size>1 0.035</size>
             <fontSize>${fontSizeSmall}</fontSize>
             <backgroundColor>${colorDark}</backgroundColor>
             <color>FFFFFF</color>
@@ -74,7 +73,7 @@
             <origin>0.005 0</origin>
             <pos>0.005 0</pos>
 
-            <fontPath>${mainFontSmallPath}</fontPath>
+            <fontPath>${mainFontPath}</fontPath>
             <color>${colorLight}</color>
             <fontSize>${fontSizeSmall}</fontSize>
 
@@ -110,7 +109,7 @@
             <origin>0.005 0</origin>
             <pos>0.005 0</pos>
 
-            <fontPath>${mainFontSmallPath}</fontPath>
+            <fontPath>${mainFontPath}</fontPath>
             <color>${colorLight}</color>
             <fontSize>${fontSizeSmall}</fontSize>
 
