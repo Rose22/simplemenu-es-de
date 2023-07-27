@@ -2,7 +2,7 @@
     <include>./colorschemes.xml</include>
 
     <variables>
-        <mainFontPath>./fonts/ArcadePix.ttf</mainFontPath>
+        <mainFontPath>./fonts/mainfont.ttf</mainFontPath>
         <fontSizeLarge>0.040</fontSizeLarge>
         <fontSizeNormal>0.035</fontSizeNormal>
         <fontSizeSmall>0.020</fontSizeSmall>
