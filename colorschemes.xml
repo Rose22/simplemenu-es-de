@@ -36,8 +36,8 @@
     </colorScheme>
     <colorScheme name="pink">
         <variables>
-            <textlistPrimaryColor>FFC5DA</textlistPrimaryColor>
-            <textlistSelectorColor>FF87B7</textlistSelectorColor>
+            <textlistPrimaryColor>FFB6C1</textlistPrimaryColor>
+            <textlistSelectorColor>FFC0CB</textlistSelectorColor>
             <textlistSelectedColor>000000</textlistSelectedColor>
         </variables>
     </colorScheme>
