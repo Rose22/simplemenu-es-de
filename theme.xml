@@ -23,7 +23,7 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0.010</pos>
+            <pos>0 0.008</pos>
             <size>1 0.99</size>
 
             <fontPath>${mainFontPath}</fontPath>
@@ -34,7 +34,7 @@
             <selectorColor>${colorLight}CC</selectorColor>
             <selectedColor>${colorDark}</selectedColor>
 
-            <lineSpacing>1</lineSpacing>
+            <lineSpacing>1.15</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
             <selectorHeight>0.035</selectorHeight>
