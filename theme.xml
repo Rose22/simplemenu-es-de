@@ -4,8 +4,8 @@
     <variables>
         <mainFontPath>./fonts/mainfont.ttf</mainFontPath>
         <fontSizeLarge>0.040</fontSizeLarge>
-        <fontSizeNormal>0.040</fontSizeNormal>
-        <fontSizeSmall>0.024</fontSizeSmall>
+        <fontSizeNormal>0.035</fontSizeNormal>
+        <fontSizeSmall>0.020</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
     <variant name="images-defaultbg,videos-defaultbg,nomedia-defaultbg">
@@ -23,7 +23,7 @@
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
             <pos>0 0.025</pos>
-            <size>1 0.985</size>
+            <size>1 0.990</size>
 
             <fontPath>${mainFontPath}</fontPath>
             <fontSize>${fontSizeNormal}</fontSize>
@@ -33,11 +33,11 @@
             <selectorColor>${colorLight}CC</selectorColor>
             <selectedColor>${colorDark}</selectedColor>
 
-            <lineSpacing>1.2</lineSpacing>
+            <lineSpacing>1.1</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
-            <selectorHeight>0.035</selectorHeight>
-            <selectorVerticalOffset>0.013</selectorVerticalOffset>
+            <selectorHeight>0.030</selectorHeight>
+            <selectorVerticalOffset>0.012</selectorVerticalOffset>
             <!-- <selectorColor>00000000</selectorColor> -->
             <!-- <selectedBackgroundColor>${colorBackground}</selectedBackgroundColor> -->
 
@@ -49,22 +49,32 @@
 
         <!-- help system in header -->
         <helpsystem name="help">
-            <fontSize>0.020</fontSize>
+            <fontSize>${fontSizeSmall}</fontSize>
             <fontPath>${mainFontPath}</fontPath>
             <origin>0.99 0</origin>
-            <pos>0.99 0.010</pos>
+            <pos>0.99 0.008</pos>
             <textColor>${colorLight}</textColor>
             <iconColor>${colorLight}</iconColor>
         </helpsystem>
         <!-- background color for the header -->
         <text name="header-bg">
             <pos>0 0</pos>
-            <size>1 0.035</size>
+            <size>1 0.030</size>
             <fontSize>${fontSizeSmall}</fontSize>
             <backgroundColor>${colorDark}</backgroundColor>
+            <!-- <backgroundColor>FFFFFF</backgroundColor> -->
             <color>FFFFFF</color>
             <zIndex>98</zIndex>
         </text>
+        <!--
+        <text name="alignment-test">
+            <backgroundColor>${colorDark}</backgroundColor>
+            <origin>0 0</origin>
+            <pos>0 0.010</pos>
+            <size>1 0.01</size>
+            <zIndex>99</zIndex>
+            </text>
+        -->
     </view>
 
     <view name="system">
