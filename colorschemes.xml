@@ -2,50 +2,50 @@
     <colorScheme name="monochrome">
         <variables>
             <colorLight>FFFFFF</colorLight>
-            <colorBackground>E3E3E3</colorBackground>
             <colorDark>000000</colorDark>
+            <colorBackground>E3E3E3</colorBackground>
         </variables>
     </colorScheme>
     <colorScheme name="red">
         <variables>
-            <colorLight>FF7A7C</colorLight>
+            <colorLight>FF9293</colorLight>
+            <colorDark>180000</colorDark>
             <colorBackground>FF5759</colorBackground>
-            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="green">
         <variables>
-            <colorLight>AFDA3E</colorLight>
-            <colorBackground>99C525</colorBackground>
-            <colorDark>000000</colorDark>
+            <colorLight>7EFDCB</colorLight>
+            <colorDark>001A10</colorDark>
+            <colorBackground>03A062</colorBackground>
         </variables>
     </colorScheme>
     <colorScheme name="blue">
         <variables>
-            <colorLight>3ACAFF</colorLight>
-            <colorBackground>61D4FF</colorBackground>
-            <colorDark>000000</colorDark>
+            <colorLight>9CE5FF</colorLight>
+            <colorDark>001C26</colorDark>
+            <colorBackground>008FC3</colorBackground>
         </variables>
     </colorScheme>
     <colorScheme name="gold">
         <variables>
-            <colorLight>F2DB97</colorLight>
+            <colorLight>F7E9C1</colorLight>
+            <colorDark>070601</colorDark>
             <colorBackground>ECCB6A</colorBackground>
-            <colorDark>000000</colorDark>
         </variables>
     </colorScheme>
     <colorScheme name="pink">
         <variables>
-            <colorLight>FFB6C1</colorLight>
-            <colorBackground>FFC0CB</colorBackground>
-            <colorDark>000000</colorDark>
+            <colorLight>F49BCC</colorLight>
+            <colorDark>18030E</colorDark>
+            <colorBackground>DA1884</colorBackground>
         </variables>
     </colorScheme>
     <colorScheme name="purple">
         <variables>
-            <colorLight>FF8AFF</colorLight>
-            <colorBackground>FF42FF</colorBackground>
-            <colorDark>000000</colorDark>
+            <colorLight>FFBBFF</colorLight>
+            <colorDark>1E001E</colorDark>
+            <colorBackground>800080</colorBackground>
         </variables>
     </colorScheme>
 </theme>
