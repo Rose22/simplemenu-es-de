@@ -23,7 +23,7 @@
     <view name="system,gamelist">
         <!-- global textlist across all views, simple way to launch your games! -->
         <textlist name="global-list">
-            <pos>0 0.008</pos>
+            <pos>0 0.009</pos>
             <size>1 0.99</size>
 
             <fontPath>${mainFontPath}</fontPath>
@@ -60,7 +60,7 @@
         <!-- background color for the header -->
         <text name="header-bg">
             <pos>0 0</pos>
-            <size>1 0.02</size>
+            <size>1 0.025</size>
             <fontSize>${fontSizeSmall}</fontSize>
             <backgroundColor>${colorDark}</backgroundColor>
             <color>FFFFFF</color>
