@@ -15,6 +15,7 @@ Some examples of how you can make it look:
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/a4935b10-878c-4494-9ff5-6cec944f566f">
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/60663533-e066-49b3-ac95-8c4474f652db">
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/bfb8b21d-e040-4036-86ff-7008f0f47606">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/cdfc41df-4075-4bfd-b383-bcd3064159a9">
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/28e9aadc-1f3c-4550-a738-7cdb94c7e6f8">
 <img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/96caec34-9194-42ac-9a63-36ead85169f9">
 
