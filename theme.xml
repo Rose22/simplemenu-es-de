@@ -181,7 +181,7 @@
                 <interpolation>linear</interpolation>
 
                 <audio>false</audio>
-                <delay>1</delay>
+                <delay>1.5</delay>
                 <scrollFadeIn>false</scrollFadeIn>
                 <scanlines>true</scanlines>
 
