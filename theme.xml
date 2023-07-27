@@ -37,7 +37,7 @@
             <horizontalMargin>0.005</horizontalMargin>
 
             <selectorHeight>0.035</selectorHeight>
-            <selectorVerticalOffset>0.012</selectorVerticalOffset>
+            <selectorVerticalOffset>0.013</selectorVerticalOffset>
             <!-- <selectorColor>00000000</selectorColor> -->
             <!-- <selectedBackgroundColor>${colorBackground}</selectedBackgroundColor> -->
 
