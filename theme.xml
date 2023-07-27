@@ -131,6 +131,7 @@
 
                 <imageType>screenshot, titlescreen, cover</imageType>
                 <brightness>-1.5</brightness>
+                <interpolation>linear</interpolation>
 
                 <scrollFadeIn>false</scrollFadeIn>
                 
@@ -165,9 +166,10 @@
                 <pos>0.5 0.85</pos>
                 <maxSize>1 1</maxSize>
 
-                <imageType>screenshot, titlescreen, cover</imageType>
+                <imageType>cover, titlescreen, screenshot</imageType>
                 <defaultImage>${backgroundImagePath}</defaultImage>
                 <brightness>-1.5</brightness>
+                <interpolation>linear</interpolation>
 
                 <audio>false</audio>
                 <delay>0.5</delay>
