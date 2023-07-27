@@ -129,7 +129,7 @@
                 <pos>0.5 0.85</pos>
                 <cropSize>1 1</cropSize>
 
-                <imageType>cover, titlescreen, screenshot</imageType>
+                <imageType>screenshot, titlescreen, cover</imageType>
                 <brightness>-1.5</brightness>
 
                 <scrollFadeIn>false</scrollFadeIn>
