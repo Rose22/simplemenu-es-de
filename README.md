@@ -11,41 +11,23 @@ Supports custom backgrounds, which is nicely combinable with color schemes to ma
 
 Some examples of how you can make it look:
 
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/0ac35f8d-7961-430c-a5a9-0d92cc21612f">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/d70ba3ad-b15f-42af-9600-006cb4e55223">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/a06661b8-38f5-4ebe-be10-79f6087fd711">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/6084bc75-e1f3-4f42-afbf-fc5db005b1cc">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/5c8bc11d-09db-46c3-99e8-288ca7d9e17e">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/e5eb6491-a737-438a-9a4a-a47b9bda040b">
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/036a167f-49e6-4048-827e-fe04c6372e47">
-
-Steam Deck aspect ratio (16:10):
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/be63ae62-e0cf-4c54-880c-0f86bb18d76f">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/d9f8cf67-d56c-41ab-8958-14661842e71c">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/a4935b10-878c-4494-9ff5-6cec944f566f">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/60663533-e066-49b3-ac95-8c4474f652db">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/bfb8b21d-e040-4036-86ff-7008f0f47606">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/28e9aadc-1f3c-4550-a738-7cdb94c7e6f8">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/96caec34-9194-42ac-9a63-36ead85169f9">
 
 4:3 aspect ratio:
 
-<img width="752" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/a2abfeb9-0ac5-40eb-8660-0df2bdb962f2">
+<img width="752" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/4df31a24-3986-48a6-85e7-472b3f336a81">
 
-3:2 aspect ratio:
+Steam Deck aspect ratio (1280x800):
 
-<img width="592" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/b5dc1acd-ce6d-461a-962e-0d675c5dc5c6">
+<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/969e6513-0248-4f17-af02-faa7f37a3e4a">
 
-anime aspect ratio:
-<img width="1392" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/d4a40718-7dd4-49af-aafb-3bdfb8a8677e">
+3:2 aspect ratio (Gameboy Advance, Anbernic RG351P)
 
-cotton candy aspect ratio:
-<img width="852" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/f0e4a23b-0fa1-4746-b51d-da43a35ba2ac">
-
-ratio ratio:
-
-<img width="752" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/2b5b417f-34cb-4daa-98b8-2bbf9bb152e8">
-
-oh no stop what are you doing it can't handle this yet!!
-
-<img width="712" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/5333e119-7b05-4745-91a2-02e70f1c5ade">
-
-oh no oh no you made it worse!! stop!
-
-<img width="712" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/3b6fccae-74a0-46c5-99b6-f01f80fd6d55">
+<img width="592" alt="image" src="https://github.com/Rose22/simplemenu-es-de/assets/16426885/2a107bd7-4b47-49d4-b558-ccb3b6a51203">
 
 
