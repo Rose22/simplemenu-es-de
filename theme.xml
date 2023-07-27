@@ -3,8 +3,8 @@
 
     <variables>
         <mainFontPath>./fonts/ArcadePix.ttf</mainFontPath>
-        <fontSizeLarge>0.050</fontSizeLarge>
-        <fontSizeNormal>0.040</fontSizeNormal>
+        <fontSizeLarge>0.040</fontSizeLarge>
+        <fontSizeNormal>0.035</fontSizeNormal>
         <fontSizeSmall>0.020</fontSizeSmall>
         <mainMenuText>choose your system</mainMenuText>
     </variables>
@@ -30,7 +30,7 @@
             <primaryColor>${textlistPrimaryColor}</primaryColor>
             <secondaryColor>${textlistPrimaryColor}</secondaryColor>
 
-            <lineSpacing>1</lineSpacing>
+            <lineSpacing>1.5</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
 
             <selectorHeight>0.04</selectorHeight>
