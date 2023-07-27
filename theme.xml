@@ -28,7 +28,7 @@
             <fontPath>${mainFontPath}</fontPath>
             <fontSize>${fontSizeNormal}</fontSize>
             <primaryColor>${textlistPrimaryColor}AA</primaryColor>
-            <secondaryColor>${textlistPrimaryColor}</secondaryColor>
+            <secondaryColor>${textlistPrimaryColor}CC</secondaryColor>
 
             <lineSpacing>1.3</lineSpacing>
             <horizontalMargin>0.005</horizontalMargin>
